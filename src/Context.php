@@ -121,7 +121,7 @@ class Context
     public function isVersion($versions): bool
     {
         if (!$this->version) {
-            throw new \RuntimeException('Version is only available reliably for validation and serialization');
+            //throw new \RuntimeException('Version is only available reliably for validation and serialization');
         }
 
         $versions = (array) $versions;
